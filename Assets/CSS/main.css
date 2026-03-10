@@ -1,0 +1,36 @@
+table {
+    border: 3px solid red;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid blue;
+    width: 120px;
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(230, 212, 189);
+}
+
+tbody td:first-child {
+    background-color: aqua;
+}
+
+th:first-child,
+td:first-child {
+    width: 40px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color:darkkhaki;
+}
+
+tbody tr:nth-child(even) {
+    background-color:lightgray;
+}
+
+tfoot {
+    background-color: coral;
+}
+
