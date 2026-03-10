@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+caption {
+    color: red;
+    font-size: 20px;
+}
+
+caption::after {
+    content: '#05';
+    color: indigo;
+}
+
 table {
     border: 3px solid red;
     margin: 0 auto;
